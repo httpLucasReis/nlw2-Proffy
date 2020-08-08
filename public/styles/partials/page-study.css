@@ -50,6 +50,14 @@
     width: 90%;
 }
 
+#page-study main .no-results {
+    max-width: 30rem;
+
+    margin: 12rem auto;
+
+    text-align: center;
+}
+
 .teacher-item {
     background-color: var(--color-box-base);
     border: 1px solid var(--color-line-in-white);
@@ -209,7 +217,7 @@
     }
 
     .teacher-item > p {
-        padding: 0 32px;
+        padding: 0 50px;
         text-align: justify;
     }
 
