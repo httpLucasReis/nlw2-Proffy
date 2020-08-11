@@ -18,6 +18,7 @@
     --color-box-base: #FFFFFF;
     --color-box-footer: #FAFAFC;
     --color-small-info: #C1BCCC;
+    --color-success-title: #f7f7f7;
     
     /* Tamanho da fonte padrão: 16px = 100% = 1rem */
     font-size: 60%; /* controle das medidas rem */

@@ -95,11 +95,15 @@ async function saveClasses(req,res) {
         await createProffy(db, {proffyValue, classValue, classScheduleValues});
 
         // Filtrando os dados. o usuário pode checar se foi cadastrado
+        /*
         let queryString = "?subject=" + req.body.subject;
         queryString += "&weekday=" + req.body.weekday[0];
-        queryString += "&time=" + req.body.time_from[0];
-
-        return res.redirect("/study" + queryString);
+        queryString += "&time=" + req.body.time_from[0]; 
+        */
+        
+        /* return res.redirect("/study" + queryString); */
+        const success = true
+        return res.render("give-classes.html", { success });
     
     } catch (error) {
         console.log(error)

@@ -127,6 +127,36 @@
     border-top: 1px solid var(--color-line-in-white);
 }
 
+.sucess-register { 
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--color-primary-dark);
+
+    opacity: 0.8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sucess-register img { 
+    margin-bottom: 0.5rem;
+}
+
+.sucess-register p { 
+    color: var(--color-success-title);
+    font: 700 1.9rem Poppins;
+}
+
+
+
 
 
 @media (min-width: 700px){

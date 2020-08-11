@@ -123,4 +123,16 @@
         </footer>
     </main>
 
-{% endblock content %}
+    {% if success %}
+        <div class="sucess-register">
+          <img src="/images/icons/success-check-icon.svg" alt="Cadastrado com sucesso">
+          <p>Cadastro realizado com sucesso</p>
+        </div>
+        <script>
+            setTimeout(()=>{window.location.href="/"}, 3000);
+        </script>
+    {% endif %}
+
+
+{% endblock content %}    
+

@@ -26,8 +26,6 @@ module.exports = async function(db, {proffyValue, classValue, classScheduleValue
     
     /* Inserindo dados na tabela de classes */ 
 
-    console.log(classValue.cost);
-
     const insertedClass = await db.run(`
         INSERT INTO classes (
             subject,
