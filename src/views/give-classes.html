@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="./styles/partials/page-give-classes.css">
 {% endblock styles %}
 
+{% block title %}
+    <title>Cadastre-se como professor</title>
+{% endblock title %}
+
 {% block javascript %}
     <script src="scripts/addField.js" defer="defer"></script>
 {% endblock javascript %}
@@ -119,4 +123,16 @@
         </footer>
     </main>
 
-{% endblock content %}
+    {% if success %}
+        <div class="sucess-register">
+          <img src="/images/icons/success-check-icon.svg" alt="Cadastrado com sucesso">
+          <p>Cadastro realizado com sucesso</p>
+        </div>
+        <script>
+            setTimeout(()=>{window.location.href="/"}, 3000);
+        </script>
+    {% endif %}
+
+
+{% endblock content %}    
+
