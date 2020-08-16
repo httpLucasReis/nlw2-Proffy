@@ -11,6 +11,7 @@
 {% endblock title %}
 
 {% block javascript %}
+    <script src="https://kit.fontawesome.com/ef225fb983.js" crossorigin="anonymous"></script>
     <script src="scripts/addField.js" defer="defer"></script>
 {% endblock javascript %}
 
@@ -103,6 +104,11 @@
                     <div class="input-block">
                         <label for="time_to">Até</label>
                         <input type="time" name="time_to[]" required="required">
+                    </div>
+                    
+                    <div class="delete-button">
+                        <label for="detele">Excluir</label>
+                        <button type="button" name="delete"><i class="fas fa-times"></i></button>
                     </div>
                 </div>
 

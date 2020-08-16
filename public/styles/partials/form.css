@@ -1,5 +1,6 @@
 .select-block label,
 .input-block label,
+.delete-button label,
 .textarea-block {
     font-size: 1.4rem;
     color: var(--color-text-complement);
@@ -12,7 +13,8 @@
 
 .input-block input,
 .select-block select,
-.textarea-block textarea{
+.textarea-block textarea,
+.delete-button button {
     width: 100%;
     height: 5.6rem;
 
